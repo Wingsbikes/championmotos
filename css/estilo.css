@@ -3,7 +3,7 @@ body{
 }
 
 a{
-	color: darkorchid;
+	color: slategray;
 	text-decoration: none;
 }
 
@@ -38,7 +38,6 @@ h2{
 	margin: 0px;
 	margin-left: 100px;
 	letter-spacing: -5px;
-
 }
 
 .headerHome{
@@ -65,3 +64,54 @@ h2{
 	margin-right: 100px;
 }
 
+.footerHome{
+	height: 250px;
+	background-color: darkslategray;
+	margin: 0px;
+	padding: 0px;
+}
+
+h4{
+	font-family: 'Josefin Sans', sans-serif;
+	color: whitesmoke;
+	font-size: 25px;
+	text-align: center;
+}
+
+p{
+	font-family: 'Josefin Sans', sans-serif;
+	color: whitesmoke;
+	font-size: 14px;
+	text-align: center;
+}
+
+.footerHome{
+	display: grid;
+	grid-template-areas: 
+	"seguinos seguinos seguinos"
+	"encontranos encontranos encontranos"
+	"wapp instagram facebook";
+	grid-template-columns: 33% 33% 33%;
+	grid-auto-rows: auto auto auto;
+}
+
+.seguinos{
+	grid-area: seguinos;
+}
+
+.encontranos{
+	grid-area: encontranos;
+	margin: 0px
+}
+
+.wapp{
+	grid-area: wapp;
+}
+
+.instagram{
+	grid-area: instagram;
+}
+
+.facebook{
+	grid-area: facebook;
+}
