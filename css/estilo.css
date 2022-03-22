@@ -1,9 +1,9 @@
 body{
-	background-color: whitesmoke;
+	background-color: ghostwhite;
 }
 
 a{
-	color: lightgrey;
+	color: darkorchid;
 	text-decoration: none;
 }
 
@@ -18,12 +18,13 @@ h3.somos{
 	margin-top: 100px;
 	margin-left: 100px;
 	letter-spacing: -5px;
+	color: darkslategrey;
 }
 
 h3.champion{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 100px;
-	color: darkgrey;
+	color: darkslategrey;
 	margin: 0px;
 	margin-left: 100px;
 	margin-bottom: 60px;
@@ -33,7 +34,7 @@ h3.champion{
 h2{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 80px;
-	color: dimgrey;
+	color: darkslategrey;
 	margin: 0px;
 	margin-left: 100px;
 	letter-spacing: -5px;
@@ -63,6 +64,4 @@ h2{
 	justify-self: flex-end;
 	margin-right: 100px;
 }
-
-
 
