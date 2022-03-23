@@ -65,7 +65,7 @@ h2{
 }
 
 .footerHome{
-	height: 250px;
+	height: 200px;
 	background-color: darkslategray;
 	margin: 0px;
 	padding: 0px;
@@ -78,40 +78,36 @@ h4{
 	text-align: center;
 }
 
-p{
-	font-family: 'Josefin Sans', sans-serif;
-	color: whitesmoke;
-	font-size: 14px;
-	text-align: center;
-}
 
 .footerHome{
 	display: grid;
 	grid-template-areas: 
-	"seguinos seguinos seguinos"
-	"encontranos encontranos encontranos"
-	"wapp instagram facebook";
-	grid-template-columns: 33% 33% 33%;
-	grid-auto-rows: auto auto auto;
+	"seguinos"
+	"logos";
+	grid-template-columns: 100%;
+	grid-auto-rows: 100px 50px;
 }
 
 .seguinos{
 	grid-area: seguinos;
+	margin-top: 50px;
+	margin-bottom: 0px;
 }
 
-.encontranos{
-	grid-area: encontranos;
-	margin: 0px
+.logos{
+	grid-area: logos;
+}
+
+.logos{
+	display: flex;
+	flex-direction: row;
+	justify-content: safe center;
 }
 
 .wapp{
-	grid-area: wapp;
+	padding-right: 10px;
 }
 
 .instagram{
-	grid-area: instagram;
-}
-
-.facebook{
-	grid-area: facebook;
+	padding-right: 10px;
 }
